@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>DGPLUG Log Results</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 class="result-title">Log Results</h2>
+        <form class="search-container" id="search-form">
+          <input type="text" name="query" id="query-tag" class="search-input" placeholder="Enter tag to search for.."/>
+          <input type="submit" class="search-button" value="Search" />
+        </form>
+      </div>
+      <hr />
+      <div class="results" id="result-container">
+        {items}
+      </div>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>
