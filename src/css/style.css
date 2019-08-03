@@ -13,7 +13,7 @@ hr {
   align-items: center;
   padding: 1% 5%;
   background-color: #24292e;
-  margin: -0.6%;
+  margin: -8px;
 }
 
 .banner a {
@@ -107,4 +107,20 @@ hr {
   vertical-align: baseline;
   border-radius: .25rem;
   cursor: pointer;
+}
+
+@media screen and (max-width: 740px) {
+  .header {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .search-input {
+    width: 100%;
+  }
+
+  .search-button {
+    width: 100%;
+  }
 }
