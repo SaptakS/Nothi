@@ -41,50 +41,91 @@ speakers = ["kushal"]
 title = "IRC Log 2017 - 04"
 link = "https://dgplug.org/irclogs/2017/Logs-2017-06-21-13-36.txt"
 date = "2017-06-21"
-tags = []
-speakers = []
+tags = [
+  "FHS",
+  "Q&A",
+]
+speakers = [
+  "sayan",
+]
 
 [[logs]]
 title = "IRC Log 2017 - 05"
 link = "https://dgplug.org/irclogs/2017/Logs-2017-06-22-13-28.txt"
 date = "2017-06-22"
-tags = []
-speakers = []
+tags = [
+  "editor",
+  "vim",
+  "vimrc",
+  "live session",
+]
+speakers = [
+  "kushal",
+  "sayan",
+]
 
 [[logs]]
 title = "IRC Log 2017 - 06"
 link = "https://dgplug.org/irclogs/2017/Logs-2017-06-23-13-35.txt"
 date = "2017-06-23"
-tags = []
-speakers = []
+tags = [
+  "vim",
+  "Q&A",
+  "blogging",
+]
+speakers = [
+  "kushal",
+  "sayan",
+]
 
 [[logs]]
 title = "IRC Log 2017 - 07"
 link = "https://dgplug.org/irclogs/2017/Logs-2017-06-27-13-28.txt"
 date = "2017-06-27"
-tags = []
-speakers = []
+tags = [
+  "blogging",
+  "planet",
+  "rss feed",
+]
+speakers = [
+  "kushal",
+]
 
 [[logs]]
 title = "IRC Log 2017 - 08"
 link = "https://dgplug.org/irclogs/2017/Logs-2017-06-28-13-28.txt"
 date = "2017-06-28"
-tags = []
-speakers = []
+tags = [
+  "markdown",
+  "discount",
+]
+speakers = [
+  "kushal",
+]
 
 [[logs]]
 title = "IRC Log 2017 - 09"
 link = "https://dgplug.org/irclogs/2017/Logs-2017-06-30-13-28.txt"
 date = "2017-06-30"
-tags = []
-speakers = []
+tags = [
+  "vim",
+  "vimrc",
+]
+speakers = [
+  "sayan",
+]
 
 [[logs]]
 title = "IRC Log 2017 - 10"
 link = "https://dgplug.org/irclogs/2017/Logs-2017-07-03-13-28.txt"
 date = "2017-07-03"
-tags = []
-speakers = []
+tags = [
+  "VCS",
+  "git",
+]
+speakers = [
+  "sayan",
+]
 
 [[logs]]
 title = "IRC Log 2017 - 11"
