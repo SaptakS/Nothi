@@ -1,12 +1,12 @@
-import json
+import toml
 import os
 from distutils.dir_util import copy_tree
 
 class HTMLCreator():
     def load_data(self):
-        # load the json data for all logs
-        log_data_file = open("data.json")
-        self.log_data = json.load(log_data_file)
+        # load the toml data for all logs
+        log_data_file = open("data.toml")
+        self.log_data = toml.load(log_data_file)
 
     def load_templates(self):
         # load all the html template files
@@ -23,23 +23,23 @@ class HTMLCreator():
         return tags_html
 
     def get_items_html(self):
-        # loop over all the log data in json.
+        # loop over all the log data in toml.
         # using string formatting in the templates, add the necessary data
         # first in the tag template, then the tag and all other data in item
         # and then all item html in the main template
         items_html = ""
-        for item in self.log_data:
-            tags_html = self.get_tags_html(item["tags"])
+        for item in self.log_data['logs']:
+            tags_html = self.get_tags_html(item["tags"] + item["speakers"])
             items_html += self.item_html_template.format(
                 item_link=item["link"],
                 item_title=item["title"],
                 item_date=item["date"],
                 item_tags=tags_html
             ) + "\n"
-        
+
         return items_html
 
-            
+
     def get_final_html(self):
         # get the list of items html and append it in the correct place in the
         # main template and return
