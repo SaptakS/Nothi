@@ -1,0 +1,50 @@
+[[logs]]
+title = "IRC Log 2017 - 01"
+link = "https://dgplug.org/irclogs/2017/Logs-2017-06-18-13-41.txt"
+date = "2017-06-18"
+tags = [
+  "introduction",
+  "IRC rules",
+  "Q&A system",
+  "batul",
+  "language",
+  "summertraining concept"]
+speakers = [
+  "kushal",
+  "sayan"]
+
+[[logs]]
+title = "IRC Log 2017 - 02"
+link = "https://dgplug.org/irclogs/2017/Logs-2017-06-19-13-28.txt"
+date = "2017-06-19"
+tags = [
+  "communication",
+  "netiquette",
+  "SMS language",
+  "mailing lists",
+  "top posting"]
+speakers = [
+  "mbuf",
+  "kushal"]
+
+[[logs]]
+title = "IRC Log 2017 - 03"
+link = "https://dgplug.org/irclogs/2017/Logs-2017-06-20-13-28.txt"
+date = "2017-06-20"
+tags = [
+  "shell basics",
+  "gtypist",
+  "smart questions"]
+speakers = ["kushal"]
+
+[[logs]]
+title = "IRC Log 2017 - 04"
+link = "https://dgplug.org/irclogs/2017/Logs-2017-06-21-13-36.txt"
+date = "2017-06-21"
+tags = [
+  "FHS",
+  "Q&A",
+]
+speakers = [
+  "sayan",
+]
