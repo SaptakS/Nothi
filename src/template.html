@@ -2,13 +2,23 @@
   <head>
     <title>DGPLUG Log Results</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
   </head>
   <body>
     <header class="banner">
       <a href="https://dgplug.org"><img src="https://foss.training/images/header.png" /></a>
-      <a href="https://foss.training">Summer Training</a>
+      <div class="right-links">
+        <a href="https://foss.training">Summer Training</a>
+        <div class="dropdown">
+          <span class="dropdown-link">Yearly Logs</span>
+          <div class="dropdown-content">
+            <a href="./2019/">2019</a>
+            <a href="./2018/">2018</a>
+            <a href="./2017/">2017</a>
+            <a href="./2016/">2016</a>
+          </div>
+        </div>
+      </div>
     </header>
     <div class="container">
       <div class="header">
@@ -18,6 +28,10 @@
           <input type="submit" class="search-button" value="Search" />
         </form>
       </div>
+      <p>
+        Check the yearly logs from the header to find an extensive list
+        of all IRC logs from all the sessions taken in the IRC channel.
+      </p>
       <hr />
       <div class="results" id="result-container">
         {items}
